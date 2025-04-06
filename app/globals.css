@@ -1,0 +1,49 @@
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.readex-pro-arabic {
+  font-family: "Readex Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "HEXP" 0; 
+}
+.orbitron-digital {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.clock-contianer {
+  
+ 
+
+  /*
+*  background: url(./frame.webp)   no-repeat;
+*/
+background: #FFF7BF;
+background: linear-gradient(135deg, #FFF7BF, #F5CD8A);
+}
